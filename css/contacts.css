@@ -1,0 +1,15 @@
+.contacts{
+    font-style:normal;
+    text-align: right;
+}
+
+.contacts__tel{
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+.contacts__graph{
+    text-decoration: underline;
+    font-size: 13px;
+    display: block;
+}

@@ -1,0 +1,23 @@
+.preview{
+    width: 45%;
+    margin-bottom: 127px;
+}
+.preview__title{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+}
+.preview_description{
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+.preview__button{
+    background: #F5170E;
+    border-radius: 35px;
+    border-color:#F5170E; ;
+    padding: 18px 39px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="top-line">
+            <div class="container top-line__container">
+                <header class="header">
+                    <div class="header__column">
+                        <a href="/" class="logo">
+                            <img src="./img/лого-2.png" icon-air-asia class="logo__icon">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="/" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./services.html" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__column header__column--align--right">
+                        <div class="contacts">
+                            <a href="tel:+78007003030" class="contacts__tel">8 800 700 30 30</a>
+                            <span class="contacts__graph">График работы</span>
+                        </div>
+                    </div>
+
+                </header>
+                <div>
+                    <h1 class="page-title">Услуги</h1>
+                    <nav class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item">
+                                <a href="" class="breadcrumbs__link">Главная</a>
+                            </li>
+                            <li class="breadcrumbs__item breadcrumbs__item--active">
+                                <a href="" class="breadcrumbs__link">Услуги</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <main class="page-content">
+            <div class="container">
+                <ul class="places">
+                    <li class="places__item place">
+                        <div class="place__img">
+                            <img src="./img/waterfall.png" class="place__img-element" alt="waterfall">
+                        </div>
+                        <div class="place__content">
+                            <h2 class="place__title">Водопад Янг-бей
+                            </h2>
+                            <div class="place__desc ">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                    начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезизвестный универсальный код речей.
+                                </p>
+                            </div>
+                            <button>
+                                <a href="" class="place__button"> Подробнее</a>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="places__item place">
+                        <div class="place__img">
+                            <img src="./img/monkeys.png" class="place__img-element" alt="monkey">
+                        </div>
+                        <div class="place__content">
+                            <h2 class="place__title">Остров обезьян
+                            </h2>
+                            <div class="place__desc ">
+                                <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                    начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                                    При создании генератора мы использовали небезизвестный универсальный код речей.
+                                </p>
+                            </div>
+                            <button>
+                                <a href="" class="place__button">Подробнее
+                                </a>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pagination pagination--theme--light">
+                    <div class="pagination__display"> Страница <span class="pagination__display-current">
+                            1</span>
+                        из
+                        <span class="pagination__display-all">7</span>
+                    </div>
+                    <ul class="pagination__list">
+                        <li class="pagination__item pagination__item--active">
+                            <a href="#" class="pagination__link">1</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">2</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">3</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">4</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">5</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">6</a>
+                        </li>
+                        <li class="pagination__item ">
+                            <a href="#" class="pagination__link">7</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <section class="inner-section">
+            <div class="container">
+                <h2 class="inner-section__title">Партнеры</h2>
+                <ul class="partners">
+                    <li class="partners__item">
+                        <a href="#" class="partners__link"></a>
+                        <img src="./img/pobeda.png" alt="pobeda.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/s7.png" alt="s7.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/lets-fly.png" alt="letsfly.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/lufthansa.png" alt="lufthansa.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src=".//img/airbaltic.png" alt="airbaltic.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/pegasus.png" alt="pegasus.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/ural.png" alt="ural.logo">
+                    </li>
+                    <li class="partners__item">
+                        <a href="" class="partners__link"></a>
+                        <img src="./img/pegas.png" alt="pegas.logo">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <fotter class="inner-fotter">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer__column">
+                        <a href="#" class="logo_footer"></a>
+                        <img src="./img/лого-2.png" alt="icon-air-asia" class="logo__icon">
+                        <nav class="menu__footer">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__column footer__column--align--right">
+                        <div class="socials__footer">
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/telegram.png" alt="telegram" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/vk.png" alt="vk" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/in.png" alt="insagram" class="socials__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="socials__link">
+                                        <img src="./img/f.png" alt="facebook" class="socials__icon">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contacts__footer">
+                            <span class="contact__text">Бесплатный звонок по России</span>
+                            <a href="#" class="contact__tel">123456789</a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </fotter>
+    </div>
+</body>
+
+</html>
